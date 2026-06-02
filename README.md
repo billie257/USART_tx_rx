@@ -4,7 +4,7 @@
 
 ## 实现效果
 
-![usart_sscom_print](C:\Users\Huangliyuan\Pictures\code\usart_sscom_print.png)
+![usart_sscom_print](images\usart_sscom_print.png)
 
 
 
