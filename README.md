@@ -2,10 +2,16 @@
 
 基于stm32 standard peripheral libraries的USART串口收发字符练习
 
+## 实现效果
+
+![usart_sscom_print](C:\Users\Huangliyuan\Pictures\code\usart_sscom_print.png)
+
+
+
 ## 核心功能
 
 * 功能点 1：实现了DevEBox 基础板stm32f407zgt6的PA9 PA10转换TX1 RX1的串口发送接收功能
-* 功能点 2：打印输入字符的ASCII码
+* 功能点 2：打印输入字符的ASCII码，波特率可设置115200u 2000000u
 * 功能点 3：使用前向声明实现数据封装，降低模块间的编译依赖，提升编译速度
 
 ## 运行环境与依赖
