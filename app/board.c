@@ -8,8 +8,8 @@ usart_desc_t usart_1 = &usart1_desc;
 
 void board_lowlevel_init(void)
 {
-	RCC_AHB1PeriphClockCmd(RCC_AHB1ENR_GPIOAEN, ENABLE);
-	RCC_APB2PeriphClockCmd(RCC_APB2ENR_USART1EN, ENABLE);
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
 }
 
 int fputc(int ch, FILE* stream)
